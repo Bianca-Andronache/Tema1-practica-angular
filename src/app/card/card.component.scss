@@ -1,0 +1,40 @@
+.card {
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;
+    text-align: center;
+    border: 2px solid rgb(243, 107, 43);
+    box-shadow: 0px 0px 3px rgb(236, 184 ,115,);
+    width: 250px;
+    height: 400px;
+    word-wrap: break-word;
+    background: rgba(255, 162, 65, 5);
+  }
+  
+  .card h1 {
+    color: rgb(114, 9, 9, 5);
+    font-family: "Arial";
+    text-shadow: 0px 0px 3px rgb(136, 33, 33);
+  }
+  
+  .card p {
+    font-size: 1.5rem;
+    color: rgb(114, 9, 9, 5);
+  }
+  
+  .card button {
+    color: rgb(247, 208, 173);
+    border: 3px solid rgb(236, 104, 43);
+    background-color: rgb(243, 107, 43);
+    padding: 1rem 1.5rem;
+    width: 200px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 2rem;
+    text-decoration: none;
+    transition: 0.3s;
+  }

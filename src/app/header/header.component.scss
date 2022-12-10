@@ -1,0 +1,46 @@
+.head {
+    height: 60vh;
+    width: 100%;
+    background: rgba(255, 235, 210, 5);
+    color: rgb(114, 9, 9);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    .box-title {
+      width: 350px;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      
+      .button-facts {
+        width: 70px;
+        height: 30px;
+        margin: 5px;
+        background-color: rgb(243, 160, 52);
+        border-radius: 5px;
+        border-color: rgb(182, 111, 5);
+        color: rgb(88, 54, 9);
+        cursor: pointer;
+      }
+    }
+    .picture-box {
+      width: 25%;
+      align-self: end;
+      .img {
+        width: 100%;
+        border-radius: 250px;
+      }
+    }
+  }
+  
+.head h1 {
+  font-size: 45px;
+  margin: 5px;
+}
+
+.head p {
+  font-size: 20px;
+  margin: 5px;
+}
